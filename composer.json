@@ -1,0 +1,22 @@
+{
+    "name": "dealroadshow/skaffold-php",
+    "description": "Generate your Skaffold config programmatically",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petr Buchyn",
+            "email": "petr.buchyn@finsight.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-json": "*",
+      "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Dealroadshow\\Skaffold\\": "src/"
+        }
+    }
+}
